@@ -1,15 +1,15 @@
 // How to remove false values from array :::::::
 
 let = foodBox = ["Apple", null, undefined, "laychee", 0]
-let foodFilter = foodBox.filter(Boolean)
-console.log(foodFilter)
+let foodBoxFilter = foodBox.filter(Boolean)
+console.log(foodBoxFilter)
 
 // Output : [ 'Apple', 'laychee' ]
 
 
 
 /* Note : Js false values types ::::
-=======================================
+--------------------------------------
 ➤ undefined , 
 
 ➤ null , 
