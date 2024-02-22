@@ -1,4 +1,4 @@
-// How to remove false values from array :::
+// How to remove false values from array :::::::
 
 let = foodBox = ["Apple", null, undefined, "laychee", 0]
 let foodFilter = foodBox.filter(Boolean)
@@ -8,12 +8,17 @@ console.log(foodFilter)
 
 
 
-
-/* Note : Js false values ::::
+/* Note : Js false values types ::::
+=======================================
 ➤ undefined , 
+
 ➤ null , 
+
 ➤ NaN , 
+
 ➤ 0 , 
+
 ➤ "" (empty string), 
+
 ➤ false 
 */
